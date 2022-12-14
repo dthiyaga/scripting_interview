@@ -10,3 +10,5 @@ for line in lines:
         count[ip]=count[ip]+1
 
 print("Final =", count)
+for k,v in count.items():
+    print(k,"=",v)
